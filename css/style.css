@@ -514,3 +514,50 @@ h1 {
   margin-right: auto;
   margin-bottom: 50px;
 }
+
+/*kobetu*/
+
+.subpage {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.main-visual {
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  text-align: justify;
+}
+
+.sub-gallery .thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+
+.back-link {
+  text-align: left;
+  margin-top: 40px;
+  font-size: 14px;
+}
