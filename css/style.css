@@ -442,7 +442,7 @@ h1 {
 
      border: 1px solid #000;
     background: #FFF;
-    padding: 0 30px;
+    padding:  30px;
     margin: 0 300px;
     display: flex;
     flex-direction: column;
@@ -521,6 +521,14 @@ h1 {
   font-family: 'Zen Maru Gothic', sans-serif;
   padding: 20px;
   color: #333;
+   border: 1px solid #000;
+    background: #FFF;
+    padding: 0 30px;
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin-bottom: 30px;
 }
 
 .main-visual {
@@ -528,6 +536,7 @@ h1 {
 }
 
 .main-image {
+  margin-top: 80px;
   width: 100%;
   max-width: 700px;
   border-radius: 8px;
@@ -559,5 +568,6 @@ h1 {
 .back-link {
   text-align: left;
   margin-top: 40px;
-  font-size: 14px;
+  font-size: 30px;
 }
+
